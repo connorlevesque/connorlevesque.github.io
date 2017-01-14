@@ -1,0 +1,49 @@
+body {
+ font-family: Century Gothic, sans-serif; 
+ background-color: #d9e6f2;
+}
+
+aside {
+ float: right;
+ max-width: 200px;
+ text-align: center;
+ padding-right: 75px;
+}
+
+section {
+ margin-right: 200px;
+}
+
+header {
+ text-align: center;
+ background-image: url(HeaderImage.jpg);
+ min-height: 100px;
+}
+
+footer {
+ background-image: url(HeaderImage.jpg);
+ min-height: 100px;
+}
+
+td, th {
+ padding: 10px;
+ text-align: left;
+ vertical-align: top;
+ min-width: 70px;
+}
+
+tr:nth-child(even) {
+ background-color: #f0f5f5;
+}
+
+table {
+ background-color: #fffffa;
+}
+
+a:link {
+ color: #004080;
+}
+
+a:visited {
+ color: #001a33;
+}
